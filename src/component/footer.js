@@ -3,7 +3,9 @@ import '../App';
 function Footer() {
     return (
         <>
-            <div>footer</div>
+            <div className="footer">
+                <p>&copy;2023 Saurabh Singh</p>
+            </div>
         </>
     );
 }

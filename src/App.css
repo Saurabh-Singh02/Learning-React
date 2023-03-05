@@ -5,7 +5,7 @@
 }
 
 :root {
-  --MAINCOLOR: #01a9bf;
+  --MAINCOLOR: #5f2288;
 }
 
 .navbar {
@@ -56,4 +56,19 @@
 
 .nav-links:hover {
   border-bottom: 4px solid var(--MAINCOLOR);
+}
+
+/* main css */
+.main {
+  min-height: 77vh;
+}
+
+/* footer css */
+.footer {
+  height: 8vh;
+  border-top: 2px solid var(--MAINCOLOR);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
 }
